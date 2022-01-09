@@ -2,6 +2,7 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Isaac
 local Lib = loadstring(game:HttpGet(("https://raw.githubusercontent.com/BoredStuff2/notify-lib/main/lib"),true))()
 library:Keybind("LeftAlt")
 local Misc = library:Window("Misc")
+local SL2 = library:Window("Shindo Life")
 if game.PlaceId == 428375933 then
     local RUMQ = library:Window("Rumble Quest")
 else if game.PlaceId == 749703080 then
@@ -12,7 +13,6 @@ elseif game.PlaceId == 6284583030 then
     local PSX = library:Window("Pet Simulator X")
 end
 end
-local SL2 = library:Window("Shindo Life")
 Lib.prompt('VibeHub', 'Thank you for choosing us. Enjoy!')
 
 Misc:Label("Credits to 自殺#8247", Color3.fromRGB(170, 0, 170))
@@ -27,7 +27,7 @@ Misc:Button("Oof", function () game.Players.LocalPlayer.Character.Humanoid.Healt
 RUMQ:Button("Auto Farm", function () loadstring(game:HttpGet('https://raw.githubusercontent.com/Isaac708/VB/main/VB'))() end)
 Avatar:Button("Admin Hub", function () loadstring(game:HttpGet("https://raw.githubusercontent.com/Aurelius0863/TeaHub/main/Final_WBbQr2bcHOPkNEOt.lua"))() end)
 Pl2:Button("Auto Farm", function () loadstring(game:HttpGet('https://scriptblox.com/raw/Prison-Life-3-GUI_227'))() end)
-SL2:Button("Premier Hub" function () loadstring(game:HttpGet("https://raw.githubusercontent.com/PremierHub/Data/main/code.lua"))() end)
+SL2:Button("Premier Hub", function () loadstring(game:HttpGet("https://raw.githubusercontent.com/PremierHub/Data/main/code.lua"))() end)
 PSX:Button("NewHub", function () loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))() end)
 
 
