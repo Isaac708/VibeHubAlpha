@@ -24,10 +24,10 @@ Misc:Slider("JumpPower",0,100,7.2,function (jp)
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = jp end)
 Misc:Button("Servers", function () loadstring(game:HttpGet("https://www.scriptblox.com/raw/Server-Browser_80", true))(); end)
 Misc:Button("Oof", function () game.Players.LocalPlayer.Character.Humanoid.Health = 0  end)
+SL2:Button("Premier Hub", function () loadstring(game:HttpGet("https://raw.githubusercontent.com/PremierHub/Data/main/code.lua"))() end)
 RUMQ:Button("Auto Farm", function () loadstring(game:HttpGet('https://raw.githubusercontent.com/Isaac708/VB/main/VB'))() end)
 Avatar:Button("Admin Hub", function () loadstring(game:HttpGet("https://raw.githubusercontent.com/Aurelius0863/TeaHub/main/Final_WBbQr2bcHOPkNEOt.lua"))() end)
 Pl2:Button("Auto Farm", function () loadstring(game:HttpGet('https://scriptblox.com/raw/Prison-Life-3-GUI_227'))() end)
-SL2:Button("Premier Hub", function () loadstring(game:HttpGet("https://raw.githubusercontent.com/PremierHub/Data/main/code.lua"))() end)
 PSX:Button("NewHub", function () loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))() end)
 
 
