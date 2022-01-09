@@ -3,16 +3,10 @@ local Lib = loadstring(game:HttpGet(("https://raw.githubusercontent.com/BoredStu
 library:Keybind("LeftAlt")
 local Misc = library:Window("Misc")
 local SL2 = library:Window("Shindo Life")
-if game.PlaceId == 428375933 then
-    local RUMQ = library:Window("Rumble Quest")
-else if game.PlaceId == 749703080 then
-    local Avatar = library:Window("Avatar")
-elseif game.PlaceId == 6114360009 then
-    local Pl2 = library:Window("Prison Life 3")
-elseif game.PlaceId == 6284583030 then
-    local PSX = library:Window("Pet Simulator X")
-end
-end
+local RUMQ = library:Window("Rumble Quest")
+local Avatar = library:Window("Avatar")
+local Pl2 = library:Window("Prison Life 3")
+local PSX = library:Window("Pet Simulator X")
 Lib.prompt('VibeHub', 'Thank you for choosing us. Enjoy!')
 
 Misc:Label("Credits to 自殺#8247", Color3.fromRGB(170, 0, 170))
